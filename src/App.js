@@ -9,6 +9,7 @@ function App() {
       <Header />
       <About />
       <Work />
+      <Skills />
     </div>
   );
 }
