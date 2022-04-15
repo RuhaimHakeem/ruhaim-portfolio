@@ -10,6 +10,7 @@ function App() {
       <About />
       <Work />
       <Skills />
+      <Testimonial />
     </div>
   );
 }
