@@ -33,7 +33,7 @@ const Navbar = () => {
               {[
                 "home",
                 "about",
-                " work",
+                "work",
                 "skills",
                 "testimonials",
                 "contact",
