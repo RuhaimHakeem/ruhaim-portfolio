@@ -32,7 +32,7 @@ const Testimonial = () => {
 
   return (
     <>
-      {testimonials.length && (
+      {testimonials.length ? (
         <>
           <div className="app__testimonial-item app__flex">
             <img src={urlFor(test.imgurl)} alt="testimonial" />
@@ -74,6 +74,8 @@ const Testimonial = () => {
             </div>
           </div>
         </>
+      ) : (
+        <h2>No Testimonials To Show</h2>
       )}
 
       <div className="app__testimonial-brands app__flex">

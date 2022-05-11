@@ -36,7 +36,10 @@ import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 import Portfolio from "../assets/Portfolio.png";
 
+import ruhaimlogo from "../assets/ruhaimlogo.png";
+
 export default {
+  ruhaimlogo,
   Portfolio,
   email,
   mobile,
